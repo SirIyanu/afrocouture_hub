@@ -1,0 +1,252 @@
+/* .App{
+    background-color: grey;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.User{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.User li {
+  margin-right: 10px;
+}
+
+.User a{
+  text-decoration: none;
+  color: black;
+} */
+
+/* .container {
+    display: flex;
+    
+  }
+  .content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    padding-left: 10px;
+    padding-right: 5px;
+    flex-direction: column;
+    font-size: medium;
+    width: 150px; 
+    background-color:blue;
+  } */
+  /* .sidebar h2 {
+  display: flex;
+  align-items: center;
+  font-size: large;
+}
+
+.sidebar h2 p {
+  margin: 0;
+}
+.hub{
+  color: white;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  margin-top: 50px;
+}
+  .main-content {
+    flex-grow: 1;
+  }
+
+  .hero{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+    font-size: small;
+  }
+
+  .Addproductbutton{
+    margin-right: 20px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    border-radius: 5px;
+   color: white;
+  }
+
+.search{
+  display: flex;
+    width: 300px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    height: 35px;
+    border-radius: 5px;
+    justify-self: start;
+}
+
+.feature-list{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 50px;
+  background-color: white;
+  list-style: none;
+}
+
+.features{
+  margin-bottom: 10px;
+ }
+ .feature p{
+  text-align: center;
+ }
+.heel{
+  width: 200px;
+  height: 200px;
+}
+.kimono{
+  width: 200px;
+  height: 200px;
+}
+.maxi{
+  width: 200px;
+  height: 200px;
+} */
+/* .short{
+  width: 200px;
+  height: 200px;
+}
+.slide{
+  width: 200px;
+  height: 200px;
+}
+.turban{
+  width: 200px;
+  height: 200px;
+}
+.wrap{
+  width: 200px;
+  height: 200px;
+}
+.zuri{
+  width: 200px;
+  height: 200px;
+}
+.number{
+  display: flex;
+  justify-content: end;
+  padding-left: 60px;
+}
+.overview{
+  margin-bottom: 20px;
+  list-style-type: none;
+  color: black;
+  padding-bottom: 80px;
+  justify-content: space-around;
+}
+
+.overview a{
+  text-decoration: none
+}
+.buyer a{
+  text-decoration: none
+}
+.sidebar a{
+  color: white;
+  text-decoration: none
+}
+
+.sidebar li {
+  margin-bottom: 10px
+  } */
+/* .buyer{
+  list-style-type: none;
+}
+.magnifying{
+  width: 15px;
+  margin-right: 10px;
+}
+.message{
+  width: 15px;
+}
+
+.bell{
+  width: 15px;
+}
+
+.user{
+  width: 15px;
+}
+
+.plus{
+  width: 10px;
+  padding-right: 2px;
+}
+
+.Afro{
+  color: darkgoldenrod;
+}
+h2{
+  display: flex;
+  padding-top: 0;
+}
+
+.showing{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  color: white;
+  background-color: orange;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 15px;
+  height: 45px;
+  align-items: center;
+  font-size: small;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+ align-items: center;
+ margin-top: 20px;
+ border-top-left-radius: 30px;
+ border-top-right-radius: 30px;
+ color: white;
+}
+.logout{
+  color: red;
+}
+.instagram{
+  width: 15px;
+}
+.github{
+  width: 15px;
+}
+.facebook{
+  width: 15px;
+}
+.twitter{
+  width: 15px;
+} */
