@@ -1,0 +1,86 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0ecec;
+  gap: 50px;
+}
+
+.opening-text {
+  display: flex;
+  /* gap: 5px; */
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+.welcome {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main {
+  /* padding: 20px 140px; */
+  margin: 0 auto;
+  background-color: white;
+  width: 50%;
+  height: 80%;
+  padding: 25px 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.password,
+.signup {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+}
+.link {
+  color: #ff8a00;
+}
+
+h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.login {
+  padding: 15px 45px;
+}
+.divider {
+  height: 0px;
+  font-size: 14px;
+  /* font-weight: bold; */
+  border: 1px solid black;
+  width: 70%;
+  text-align: center;
+  line-height: 0;
+}
+
+.divider span {
+  background-color: #ffff;
+  padding: 5px 10px;
+  color: black;
+}
+
+.google svg {
+  width: 15px;
+  height: 15px;
+}
+
+.google {
+  background-color: #f0ecec;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+}
