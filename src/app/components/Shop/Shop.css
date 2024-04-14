@@ -1,83 +1,275 @@
-/* .App{
+.App{
     background-color:#232347;
-} */
+}
 
 .headsection {
   background-color: #232347;
   display: flex;
   width: Fixed 1, 440px;
-  height: Hug 82px;
-  padding: 12px 73px 12px 73px;
+  height: 82px;
+  padding-right: 73px;
+  padding-left: 73px;
   gap: 50px;
   opacity: 0px;
+  font-weight: 600;
+  size: 20px;
+  line-height: 24.38px;
+  justify-content: space-around;
 }
 
-ul {
+.navlist {
   display: flex;
-  width: Hug (340px) px;
+  width: (340px) px;
   height: Hug (32px) px;
   gap: 32px;
   opacity: 0px;
   list-style-type: none;
+  align-items: center;
 }
 
-button {
+.searchbutton {
   width: 638px;
   height: 52px;
   border-radius: 30px;
   padding: 8px;
   gap: 202px;
   margin-top: 10px;
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Align items vertically */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add pointer cursor for better UX */
 }
+.lens {
+  width: 24px; /* Adjust the width of the lens image */
+  height: 24px; /* Adjust the height of the lens image */
+  margin-right: 8px; /* Add some margin to separate the icon from the text */
+}
+
+span {
+  width: 101px;
+  height: 31px;
+  padding: 8px 0px 0px 0px;
+  gap: 8px;
+  opacity: 0px;
+  display: flex;
+}
+
 .home {
   display: flex;
   justify-content: center;
   color: white;
-  width: 1, 440px;
+  width: auto; /* Remove comma from width value */
   margin-top: 0px;
-  height: 58px;
   padding: 8px 0px 8px 0px;
   gap: 24px;
   opacity: 0px;
   background-color: #373770;
   list-style-type: none;
+  flex-direction: row;
+  align-items: center; /* Horizontally center the items */
 }
 
 .shop {
-  /* width: 10px;
-  margin-top: 0px;
-  height: 58px;
-  top: 140px;
-  padding: 18px 1052px 18px 250px;
-  gap: 24px;
-  opacity: 0px; */
+  display: flex;
   background: #4b4b9926;
   height: 58px;
-  height: 58px;
   padding-left: 200px;
-  /* padding: 18px 1052px 18px 250px; */
-  /* gap: 24px; */
   opacity: 0px;
-  justify-content: baseline;
   margin-top: 0px;
+  align-items: center;
+  justify-content: baseline;
+  gap: 16px;
+}
+.ptag{
+  color: #ff900d;
 }
 
 .side {
   width: 338px;
-  height: 1, 446px;
+  height: 446px;
+  height: auto;
   padding: 24px 13px 24px 13px;
   gap: 8px;
   opacity: 0px;
-  background: #C9C9C9;
+  background: #c9c9c9;
   display: flex;
   flex-direction: column;
+  align-content: space-evenly;
+  justify-content: space-between;
+  margin-left: 20px;
+ margin-top: 20px;
+ 
+}
+.bodyside {
+  display: flex;
 
 }
-.bodyside{
-    display: flex;
+
+
+/* .ufct{
+  width: Hug (340px)px;
+height: Hug (32px)px;
+gap: 32px;
+opacity: 0px;
+} */
+
+.user {
+  width: Fixed (32px) px;
+  height: Fixed (32px) px;
+  gap: 8px;
+  opacity: 0px;
 }
 
-.category{
-    display: flex;
-    flex-direction: column;
+.favorite {
+  width: Fixed (32px) px;
+  height: Fixed (32px) px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.bestseller a {
+  color: #ff900d;
+  width: 164px;
+  max-width: 100%;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.chevron {
+  display: flex;
+  width: 8px;
+  height: 11px;
+  gap: 8px;
+  opacity: 0px;
+  padding-left: 7px;
+  padding-right: 7px;
+  align-items: baseline;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }

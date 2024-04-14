@@ -12,11 +12,11 @@ function App() {
     <div>
       <div>
         <Head />
-        <Hero/>
-        <div bodyside>
-            <div>
-                 <Side/>
-            </div>
+        <Hero />
+        <div className="bodyside">
+          <div>
+            <Side />
+          </div>
           <div>
             <Body />
           </div>
