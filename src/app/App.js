@@ -7,6 +7,9 @@ import { IsProtectedRoute } from "./hoc/IsProtectedRoute";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { UserPage } from "./pages/UserPage";
+import React from "react";
+
+import "./components/Shop/Shop.css";
 
 const router = createBrowserRouter([
   {
