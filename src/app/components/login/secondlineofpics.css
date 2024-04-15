@@ -1,0 +1,19 @@
+.secondlineofpics{
+    background-color: white;
+    padding: 0 0 2em 0;
+}
+.secondlineofpics p{
+    background-color:rgb(9, 9, 58) ;
+    color: white;
+    width: fit-content;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+.lineofphotos{
+    display: flex;
+}
+.lineofphotos img{
+    width: 15%;
+    margin: 0 2.5%;
+    height: 20em;
+}
