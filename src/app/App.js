@@ -1,34 +1,47 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import { LoginPage } from "./components/login/login";
+import { LoginPage } from "./pages/Login";
+import { SignUpPage } from "./pages/SignUp";
+import { LandingPage } from "./pages/Landing";
+import { IsProtectedRoute } from "./hoc/IsProtectedRoute";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { UserPage } from "./pages/UserPage";
 import React from "react";
-import Head from "./components/Shop/Head";
-import Hero from "./components/Shop/Hero";
-import Side from "./components/Shop/Side";
-import Body from "./components/Shop/Body";
+
 import "./components/Shop/Shop.css";
 
-function App() {
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <IsProtectedRoute>
+        <LandingPage />
+      </IsProtectedRoute>
+    ),
+  },
+  {
+    path: "/login",
+    element: <LoginPage />,
+  },
+  {
+    path: "/signUp",
+    element: <SignUpPage />,
+  },
+  {
+    path: "/userPage",
+    element: <UserPage />,
+  },
+  {
+    path: "*",
+    element: <h1>404</h1>,
+  },
+]);
+export function App() {
   return (
-    <div>
-      <LoginPage />
-      <div>
-      <div>
-        <Head />
-        <Hero />
-        <div className="bodyside">
-          <div>
-            <Side />
-          </div>
-          <div>
-           <Body/>
-          </div>
-        </div>
-      </div>
-      {/* <Foot /> */}
-    </div>
-    </div>
+    <>
+      <ToastContainer />
+      <RouterProvider router={router} />
+    </>
   );
 }
-
-export default App;
-
