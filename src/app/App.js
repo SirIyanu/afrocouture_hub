@@ -8,6 +8,8 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { UserPage } from "./pages/UserPage";
 import React from "react";
+import { VerificationPage } from "./pages/Verification";
+import { ShopPage } from "./pages/Shop";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
   {
     path: "/userPage",
     element: <UserPage />,
+  },
+  {
+    path: "/verification",
+    element: <VerificationPage />,
+  },
+  {
+    path: "/shop",
+    element: <ShopPage />,
   },
   {
     path: "*",
