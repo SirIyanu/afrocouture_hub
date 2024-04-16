@@ -1,9 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-
-
-
-=======
 import { LoginPage } from "./pages/Login";
 import { SignUpPage } from "./pages/SignUp";
 import { LandingPage } from "./pages/Landing";
@@ -12,9 +8,8 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { UserPage } from "./pages/UserPage";
 import React from "react";
-
-
-import "./components/Shop/Shop.css";
+import { VerificationPage } from "./pages/Verification";
+import { ShopPage } from "./pages/Shop";
 
 const router = createBrowserRouter([
   {
@@ -38,19 +33,23 @@ const router = createBrowserRouter([
     element: <UserPage />,
   },
   {
+    path: "/verification",
+    element: <VerificationPage />,
+  },
+  {
+    path: "/shop",
+    element: <ShopPage />,
+  },
+  {
     path: "*",
     element: <h1>404</h1>,
   },
 ]);
 export function App() {
   return (
-
-  
-=======
     <>
       <ToastContainer />
       <RouterProvider router={router} />
     </>
-
   );
 }
