@@ -1,0 +1,73 @@
+/* success.module.css */
+
+.pageContainer {
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+  padding-top: 50px;
+  width: 747px;
+  height: 463px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 100px;
+  position: absolute;
+  top: 40%;
+  left: -3%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  opacity: 1; /* Set opacity to 1 for the container to be fully opaque */
+}
+
+  
+  .container {
+   
+    /* width: 577px;
+    height: 363px; */
+
+    gap: 24px;
+opacity: 10px;
+
+
+  }
+  
+  .row {
+    text-align: center;
+  }
+  
+  .column {
+    margin: 0 auto;
+  }
+  
+  .congratsText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(55, 55, 112, 1);
+
+  }
+  
+  .primaryButton {
+    background: rgb(243, 219, 191);
+
+    color: rgba(35, 35, 71, 1);
+
+  }
+  
+  /* .primaryButton:hover {
+    background-color: #0056b3;
+  } */
+  
+  .button {
+    background: rgba(255, 144, 13, 1);
+
+    color: white;
+  }
+  
+  .button:hover {
+    background: rgb(252, 137, 7);
+
+  }
+  
