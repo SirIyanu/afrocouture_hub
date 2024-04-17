@@ -6,7 +6,6 @@ import "../../components/Shop/Shop.css";
 export const LandingPage = () => {
   return (
     <div>
-      {/* <LoginPage /> */}
       <div>
         <div>
           <Head />
