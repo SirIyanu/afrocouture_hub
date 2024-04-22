@@ -1,7 +1,7 @@
 import React from "react";
 import range from "../../Assets/range.png";
 import line from "../../Assets/line.png";
-import style from "./side.module.css"; // Import CSS module
+import style from "./side.module.css";
 
 export const Side = () => {
   return (
