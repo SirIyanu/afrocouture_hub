@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { UserPage } from "./pages/UserPage";
 import React from "react";
 import { VerificationPage } from "./pages/Verification";
-import { ShopPage } from "./pages/Shop";
+import { ShopPage } from "./pages/ShopPage";
 
 const router = createBrowserRouter([
   {
