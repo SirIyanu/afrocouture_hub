@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "id": "Group12Memeber",
+      "email": "pm@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "Group12Memeber1",
+      "email": "designer@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "Group12Memeber2",
+      "email": "developer@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "Group12Memeber3",
+      "email": "cybersecurity@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "Group12Memeber4",
+      "email": "threed@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "Group12Memeber",
+      "email": "ohm@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "Group12Memeber",
+      "email": "pm@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "Group12Memeber",
+      "email": "pm@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "Group12Memeber",
+      "email": "pm@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "Group12Memeber",
+      "email": "pm@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "Group12Memeber",
+      "email": "pm@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "ae97",
+      "username": "Group12Memeber",
+      "password": "helloworld"
+    },
+    {
+      "id": "Group12Memeber",
+      "email": "pm@gmail.com",
+      "country": "Nigeria",
+      "password": "helloworld",
+      "confirmPassword": "helloworld"
+    },
+    {
+      "id": "62c1",
+      "username": "Group12Memeber",
+      "password": "helloworld"
+    },
+    {
+      "id": "ecd2",
+      "username": "gvujn",
+      "password": "jbn"
+    },
+    {
+      "id": "53ed",
+      "username": "n m,",
+      "password": "m ,"
+    },
+    {
+      "id": "bc91",
+      "username": "nkmm",
+      "password": "kn,ll"
+    },
+    {
+      "id": "2907",
+      "username": "n ,",
+      "password": "m ,"
+    },
+    {
+      "id": "5992",
+      "username": "nbj",
+      "password": "nl."
+    },
+    {
+      "id": "7fa3",
+      "username": "Group12Memeber",
+      "password": "helloworld"
+    },
+    {
+      "id": "afb1",
+      "username": "Group12Memeber",
+      "password": "helloworld"
+    }
+  ]
+}
