@@ -1,14 +1,14 @@
 import React from "react";
-import range from "../Assets/range.png";
-import line from "../Assets/line.png";
-import whitedot from "../Assets/whitedot.png";
+import range from "../../Assets/range.png";
+import line from "../../Assets/line.png";
+import style from "./side.module.css";
 
 export const Side = () => {
   return (
-    <div className="side">
+    <div className={style.side}>
       <div>
-        <div className="categoryside">
-          <h3 className="category">CATEGORY</h3>
+        <div className={style.categoryside}>
+          <h3 className={style.category}>CATEGORY</h3>
           <ul>
             <li>
               <label>
@@ -75,27 +75,28 @@ export const Side = () => {
             </li>
             <li>
               <label>
-                <input type="radio" name="category" value="dashiki" /> Accessories
+                <input type="radio" name="category" value="dashiki" />{" "}
+                Accessories
               </label>
             </li>
             <li>
-              <img src={line} className="line" alt="" />
+              <img src={line} className={style.line} alt="" />
             </li>
           </ul>
         </div>
 
-        <div className="price">
+        <div className={style.price}>
           <h3>PRICE RANGE</h3>
-          <img src={range} className="range" alt="" />
-          <div className="minmax">
-            <button >
+          <img src={range} className={style.range} alt="" />
+          <div className={style.minmax}>
+            <button>
               <p>Min price</p>
             </button>
             <button>Max Price</button>
           </div>
 
           <ul>
-          <li>
+            <li>
               <label>
                 <input type="radio" name="category" value="" /> All Price
               </label>
@@ -127,15 +128,16 @@ export const Side = () => {
             </li>
             <li>
               <label>
-                <input type="radio" name="category" value="" /> $1,000 to $10,000
+                <input type="radio" name="category" value="" /> $1,000 to
+                $10,000
               </label>
             </li>
             <li>
-              <img src={line} className="line" alt="" />
+              <img src={line} className={style.line} alt="" />
             </li>
           </ul>
         </div>
-        <div className="pbrands">
+        <div className={style.pbrands}>
           <h3>POPULAR BRANDS</h3>
           <ul>
             <li>Miss Jenny Fashion</li>
@@ -146,12 +148,12 @@ export const Side = () => {
             <li>Luxury Girl</li>
             <li>Stephen and Stephen</li>
             <li>
-              <img src={line} className="line" alt="" />
+              <img src={line} className={style.line} alt="" />
             </li>
           </ul>
         </div>
-        <div className="mainsize">
-          <h3 className="size">SIZE</h3>
+        <div className={style.mainsize}>
+          <h3 className={style.size}>SIZE</h3>
           <ul>
             <li>S</li>
             <li>M</li>
@@ -165,5 +167,3 @@ export const Side = () => {
     </div>
   );
 };
-
-export default Side;

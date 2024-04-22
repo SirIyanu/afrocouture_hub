@@ -9,8 +9,12 @@ import "react-toastify/dist/ReactToastify.css";
 import { UserPage } from "./pages/UserPage";
 import React from "react";
 import { VerificationPage } from "./pages/Verification";
+<<<<<<< HEAD
 import { ShopPage } from "./pages/Shop";
 import App1 from './pages/Landing/index'
+=======
+import { ShopPage } from "./pages/ShopPage";
+>>>>>>> 292f7ed4399e3354f6433a2ed4d88cb769b7e0f7
 
 const router = createBrowserRouter([
   {
