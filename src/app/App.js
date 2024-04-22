@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import { LoginPage } from "./pages/Login";
 import { SignUpPage } from "./pages/SignUp";
-import { LandingPage } from "./pages/Landing";
+//import { LandingPage } from "./pages/Landing";
 import { IsProtectedRoute } from "./hoc/IsProtectedRoute";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -10,13 +10,14 @@ import { UserPage } from "./pages/UserPage";
 import React from "react";
 import { VerificationPage } from "./pages/Verification";
 import { ShopPage } from "./pages/Shop";
+import App1 from './pages/Landing/index'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <IsProtectedRoute>
-        <LandingPage />
+        <App1 />
       </IsProtectedRoute>
     ),
   },
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/shop",
     element: <ShopPage />,
+  },
+  {
+    path: "/Landing",
+    element: <App1/>,
   },
   {
     path: "*",
