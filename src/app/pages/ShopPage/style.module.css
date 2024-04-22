@@ -1,7 +1,7 @@
 .ShopPage {
   background-color: #f0ecec;
   max-width: auto;
-  width: 1440px;
+  width: 1400px;
   height: auto;
   top: 2881px;
   left: 2050px;
@@ -12,12 +12,16 @@
 .bodyside {
   display: flex;
   /* background-color: #f0ecec; */
-  width: 1342px;
+  width: 1200px;
   left: 100px;
   top: 238px;
   gap: 24px;
   /* max-width: 100%; */
-  margin-left: 90px;
+  margin-left: 70px;
+}
+
+.body{
+  width: 1000px;
 }
 
 html,

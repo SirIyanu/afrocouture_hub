@@ -41,7 +41,7 @@ export const Body = () => {
       </div>
       <div className={style.salecontainer}>
         <div>
-          <img src={kim} className={style.sale} alt="" />
+            <img src={kim} className={style.sale} alt="" />        
           <div>
             <img src={star} className={style.star} alt="" />
           </div>

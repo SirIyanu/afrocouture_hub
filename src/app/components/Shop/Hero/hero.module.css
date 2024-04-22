@@ -11,13 +11,12 @@
     background-color: #373770;
     list-style-type: none;
     flex-direction: row;
-    align-items: center; /* Horizontally center the items */
+    align-items: center;
   }
   
   .shop {
     display: flex;
-    background-color: #4B4B99 10%;
-    /* background-color: #4B4B9926; */
+    background: #4b4b9926;
     height: 58px;
     padding-left: 200px;
     opacity: 0px;

@@ -17,7 +17,7 @@ export const ShopPage = () => {
             <div>
               <Side />
             </div>
-            <div>
+            <div className={style.body}>
               <Body />
             </div>
           </div>
