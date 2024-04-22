@@ -1,0 +1,89 @@
+/* Head.module.css */
+
+.headsection {
+  background-color: #232347;
+  display: flex;
+  width: 1440px;
+  height: 82px;
+  padding: 10px 73px 17px 73px;
+  /* padding-right: 73px;
+  padding-left: 73px; */
+  gap: 50px;
+  opacity: 0px;
+  font-weight: 600;
+  size: 20px;
+  line-height: 24.38px;
+  justify-content: space-around;
+  /* margin-left: 40px; */
+}
+
+.logo {
+  width: 253px;
+  height: 58px;
+  gap: 8px;
+  opacity: 0px;
+}
+.navlist {
+  display: flex;
+  width: 340px;
+  height: 32px;
+  gap: 32px;
+  opacity: 0;
+  list-style-type: none;
+  align-items: center;
+}
+
+.searchbutton {
+  width: 638px;
+  height: 52px;
+  border-radius: 30px;
+  padding: 8px;
+  gap: 202px;
+  margin-top: 10px;
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Align items vertically */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add pointer cursor for better UX */
+}
+
+.lens {
+  width: 24px; /* Adjust the width of the lens image */
+  height: 24px; /* Adjust the height of the lens image */
+  margin-right: 8px; /* Add some margin to separate the icon from the text */
+}
+
+.navlist span {
+  width: 101px;
+  height: 31px;
+  padding: 8px 0;
+  gap: 8px;
+  opacity: 0;
+  display: flex;
+}
+
+.user {
+  background: #ffffffcc;
+  width: 15.88px;
+  height: 19.87px;
+  gap: 0px;
+  opacity: 0px;
+}
+/* .user,
+  .favorite,
+  .cart {
+    width: 32px;
+    height: 32px;
+    gap: 8px;
+    opacity: 0;
+  } */
+
+.bestseller a {
+  color: #ff900d;
+  width: 164px;
+  max-width: 100%;
+  height: 24px;
+  gap: 0;
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+}
