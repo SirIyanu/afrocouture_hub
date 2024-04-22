@@ -7,7 +7,7 @@ import style from "./style.module.css";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { ReactComponent as GoogleIcon } from "../../assets/icons/google.svg";
-import Footer from "../../components/Footer";
+import { Footer } from "../../components/Footer";
 import { toast } from "react-toastify";
 
 export const SignUpPage = () => {
