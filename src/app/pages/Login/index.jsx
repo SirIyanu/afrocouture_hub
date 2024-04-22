@@ -7,7 +7,7 @@ import { isUserLogin } from "../../utils/user";
 import { UserPage } from "../UserPage";
 import { useNavigate } from "react-router-dom";
 import { HeaderNavigation } from "../../components/header";
-import Footer from "../../components/Footer";
+import { Footer } from "../../components/Footer";
 import { Link } from "react-router-dom";
 import { ReactComponent as GoogleIcon } from "../../assets/icons/google.svg";
 
