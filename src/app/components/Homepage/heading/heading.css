@@ -1,0 +1,65 @@
+.head{
+    display: flex;
+    background-color: rgb(9, 9, 58);
+    color: white;
+    margin-top: -1em;
+}
+#logo{
+    margin-left: 4em;
+}
+#logo h1{
+    color: orangered;
+}
+#logo h1 span{
+    color: white;
+}
+#searchbutton{
+    width: 35em;
+    height: 3.2em;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 1.5em;
+    padding-left:1em;
+    border-radius: 1.5em;
+    margin-left: 20%;
+    box-sizing: border-box;
+    display: flex;
+    margin-right: 17%;
+    
+}
+#searchbutton input{
+    width: 38em;
+    height: 3em;
+    border: none;
+    border-radius: 1em;  
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    font-size: 1em;
+    margin-top: 0em;
+    
+}
+
+#searchbutton img{
+    height: 1em;
+    width: 1em;
+    margin-top: 1.1em;
+    margin-right: 1em;
+}
+#lastsectionheading{
+    display: flex;
+    margin-top: 2em;
+    padding-top: 0.6em;
+    box-sizing: border-box;
+}
+#lastsectionheading img{
+    height: 1em;
+    width: 1em;
+    margin-right: 2em;
+}
+#lastsectionheading a{
+    color: orangered;
+    text-decoration: underline;
+}
+#lastsectionheading a:hover{
+    cursor: pointer;
+}
