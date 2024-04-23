@@ -7,11 +7,12 @@ import { isUserLogin } from "../../utils/user";
 import { UserPage } from "../UserPage";
 import { useNavigate } from "react-router-dom";
 import { HeaderNavigation } from "../../components/header";
-import Footer from "../../components/Footer";
+import { Footer } from "../../components/Footer";
 import { Link } from "react-router-dom";
 import { ReactComponent as GoogleIcon } from "../../assets/icons/google.svg";
 
 export const LoginPage = () => {
+  const [id, setId] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
   const [rememberMe, setRememberMe] = React.useState(false);
@@ -19,8 +20,8 @@ export const LoginPage = () => {
   const navigate = useNavigate();
   // console.log(email, password, rememberMe);
 
-  const handleEmail = (event) => {
-    setEmail(event.target.value);
+  const handleId = (event) => {
+    setId(event.target.value);
   };
   const handlePassword = (event) => {
     setPassword(event.target.value);
@@ -31,43 +32,44 @@ export const LoginPage = () => {
   const handleLogin = () => {
     setIsSubmitting(true);
     const payload = {
-      username: email,
+      username: id,
       password,
-      rememberMe,
     };
     console.log({ payload }, "i'm working");
-    fetch("https://dummyjson.com/auth/login", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-      .then(async (response) => {
-        if (response.status >= 400) {
-          const data = await response.json();
-          throw data;
+    fetch(`http://localhost:8000/users/${id}`)
+      .then((response) => {
+        if (!response.ok) {
+          toast.error("User not found");
+          setIsSubmitting(false);
         }
         return response.json();
       })
-      .then((response) => {
-        console.log("I got a login success", response);
-        localStorage.setItem("user", JSON.stringify(response));
-        navigate("/userpage");
-      }, [])
-      .catch((error) => {
-        console.log("i got a login error", error.message);
-        toast(error.message);
+      .then((users) => {
+        if (users.id !== id) {
+          throw new Error("Invalid credentials");
+        }
+
+        return fetch("http://localhost:8000/users", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
       })
-      .finally(() => {
-        setIsSubmitting(false);
+      .then((res) => {
+        if (res.ok) {
+          toast.success("Login Successful");
+          setTimeout(() => {
+            navigate("/shop");
+          }, 6000);
+        } else {
+          throw new Error("Login Failed.");
+        }
+      })
+      .catch((err) => {
+        // toast.error("Login Failed: " + err.message);
       });
   };
 
-  // useEffect(() => {
-  //   const user = isUserLogin();
-  //   if (user) {
-  //     window.location.href = "UserPage";
-  //   }
-  // }, []);
   return (
     <div className={style.wrapper}>
       <HeaderNavigation />
@@ -79,8 +81,8 @@ export const LoginPage = () => {
         </div>
         <br />
         <CustomInput
-          onChange={handleEmail}
-          type="email"
+          onChange={handleId}
+          type="text"
           placeholder={"Email address or username"}
           label={"Email address or username"}
         />

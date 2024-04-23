@@ -1,4 +1,4 @@
-.App {
+/* .App {
   background-color: #f0ecec;
   max-width: auto;
   width: 1440px;
@@ -7,7 +7,7 @@
   left: 2050px;
   gap: 0px;
   opacity: 0px;
-}
+} */
 
 body {
   padding-left: 10px;
@@ -111,14 +111,14 @@ span {
   margin-top: 20px;
 }
 
-.category{
+.category {
   margin-bottom: 10px;
 }
 
-.pbrands h3{
+.pbrands h3 {
   margin-bottom: 10px;
 }
-.line{
+.line {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -308,45 +308,45 @@ opacity: 0px;
 .sale2 {
   display: flex;
 }
-.price{
-margin-top: 10px;
+.price {
+  margin-top: 10px;
 }
-.price h3{
+.price h3 {
   margin-bottom: 10px;
 }
-.price img{
+.price img {
   margin-bottom: 10px;
 }
 
-.minmax{
+.minmax {
   width: 312px;
-height: 40px;
-gap: 12px;
-opacity: 0px;
-margin-bottom: 10px;
-}
-.minmax button{
-  width: 150px;
-height: 40px;
-padding: 8px 72px 15px 12px;
-gap: 8px;
-border-radius: 3px 0px 0px 0px;
-border: none;
-opacity: 0px;
-}
-.size{
+  height: 40px;
+  gap: 12px;
+  opacity: 0px;
   margin-bottom: 10px;
 }
-.categoryside ul li{
+.minmax button {
+  width: 150px;
+  height: 40px;
+  padding: 8px 72px 15px 12px;
+  gap: 8px;
+  border-radius: 3px 0px 0px 0px;
+  border: none;
+  opacity: 0px;
+}
+.size {
+  margin-bottom: 10px;
+}
+.categoryside ul li {
   margin-bottom: 5px;
 }
-.price ul li{
+.price ul li {
   margin-bottom: 5px;
 }
 .pbrands ul li {
   margin-bottom: 5px; /* Adjust the value as needed */
 }
-.mainsize ul li{
+.mainsize ul li {
   margin-bottom: 5px;
 }
 html,

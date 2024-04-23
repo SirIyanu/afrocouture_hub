@@ -1,13 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-<<<<<<< HEAD
-import { LoginPage } from "./components/login/login";
-import NavigationPage from "./components/login/Header/homePage";
-import Footerbar from "./components/login/Footer/footer";
-import Success from "./components/login/success/Success";
-import Error from "./components/login/error/error";
 
-=======
 import { LoginPage } from "./pages/Login";
 import { SignUpPage } from "./pages/SignUp";
 import { LandingPage } from "./pages/Landing";
@@ -16,9 +9,9 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { UserPage } from "./pages/UserPage";
 import React from "react";
->>>>>>> 5cc331c0745cf581b9ea607e9105bfe1b7857f92
-
-import "./components/Shop/Shop.css";
+import { VerificationPage } from "./pages/Verification";
+import { ShopPage } from "./pages/ShopPage";
+// import App1 from "./pages/Landing/index";
 
 const router = createBrowserRouter([
   {
@@ -42,25 +35,30 @@ const router = createBrowserRouter([
     element: <UserPage />,
   },
   {
+    path: "/verification",
+    element: <VerificationPage />,
+  },
+  {
+    path: "/shop",
+    element: <ShopPage />,
+  },
+  {
+    path: "/Landing",
+    element: <LandingPage />,
+  },
+  {
     path: "*",
     element: <h1>404</h1>,
   },
 ]);
 export function App() {
   return (
-<<<<<<< HEAD
-    <div>
-      {/* <LoginPage /> */}
-      <NavigationPage />
-      <Footerbar/>
-      {/* <Success/> */}
-      {/* <Error/> */}
-    </div>
-=======
+
+
     <>
       <ToastContainer />
       <RouterProvider router={router} />
     </>
->>>>>>> 5cc331c0745cf581b9ea607e9105bfe1b7857f92
+
   );
 }

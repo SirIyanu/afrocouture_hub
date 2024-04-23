@@ -1,0 +1,13 @@
+.secondsection{
+    display: flex;
+    padding: 1em 30%;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(50, 13, 129);
+    height: 3em;
+    
+}
+
+.secondsection a{
+    margin-left: 5em;
+}

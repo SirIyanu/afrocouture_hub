@@ -1,0 +1,44 @@
+.firstpicclothes {
+  display: flex;
+  background-color: white;
+}
+
+#firstpicclothes_one,
+#firstpicclothes_two,
+#firstpicclothes_three {
+  width: 30%;
+  height: 45em;
+}
+
+#firstpicclothes_one p,
+#firstpicclothes_one h6 {
+  color: blue;
+  font-size: 2em;
+  margin-left: 20%;
+}
+#firstpicclothes_one h6 {
+  color: blue;
+  font-size: 1.3em;
+  margin-left: 20%;
+}
+#firstpicclothes_one button {
+  margin-left: 20%;
+  padding: 1em;
+}
+
+#firstpicclothes_one p span {
+  color: orange;
+}
+#firstpicclothes_one button {
+  background-color: orange;
+  color: white;
+}
+
+#firstpicclothes_two {
+  background-color: #d9d9d9;
+}
+#firstpicclothes_two img,
+#firstpicclothes_three img {
+  height: 45em;
+  width: 100%;
+}
