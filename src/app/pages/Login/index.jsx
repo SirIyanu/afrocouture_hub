@@ -51,7 +51,7 @@ export const LoginPage = () => {
       .then((response) => {
         console.log("I got a login success", response);
         localStorage.setItem("user", JSON.stringify(response));
-        navigate("/userpage");
+        navigate("/verification");
       }, [])
       .catch((error) => {
         console.log("i got a login error", error.message);

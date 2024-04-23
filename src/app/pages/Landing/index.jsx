@@ -2,10 +2,10 @@ import Head from "../../components/Shop/Head";
 import Hero from "../../components/Shop/Hero";
 import Side from "../../components/Shop/Side";
 import Body from "../../components/Shop/Body";
+import "../../components/Shop/Shop.css";
 export const LandingPage = () => {
   return (
     <div>
-      {/* <LoginPage /> */}
       <div>
         <div>
           <Head />
