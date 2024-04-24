@@ -1,13 +1,14 @@
-import Pic1 from "../afro pictures/luxury girl 1.jpg";
-import Pic2 from "../afro pictures/Luxury girl 2.jpg";
-import Pic3 from "../afro pictures/luxury girl 3.jpg";
-import Pic4 from "../afro pictures/luxury girl 4.jpg";
+import Pic1 from "../../../assets/afro pictures/luxury girl 1.jpg";
+import Pic2 from "../../../assets/afro pictures/Luxury girl 2.jpg";
+import Pic3 from "../../../assets/afro pictures/luxury girl 3.jpg";
+import Pic4 from "../../../assets/afro pictures/luxury girl 4.jpg";
 import InlineOfPics from "../inlineofpics/inlineofpics";
 import LineOfOption from "../lineofoptions/lineofoptions";
-import "./listofpics.css";
+import style from "./listofpics.module.css";
+
 export default function ListOfPics() {
   return (
-    <div className="displaypics">
+    <div className={style.displaypics}>
       <LineOfOption />
       <InlineOfPics
         picA={Pic1}

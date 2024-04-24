@@ -19,19 +19,19 @@
 .picsline div p {
   margin-top: 0;
 }
-.upper_section {
+.uppersection {
   display: flex;
   margin: 3em 0;
 }
-.upper_section label {
+.uppersection label {
   margin: 0 80% 0 5%;
   font-weight: bold;
   font-size: 1.2em;
 }
-.upper_section a {
+.uppersection a {
   text-decoration: underline;
   font-weight: bold;
 }
-.upper_section a:hover {
+.uppersection a:hover {
   cursor: pointer;
 }

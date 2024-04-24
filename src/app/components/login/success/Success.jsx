@@ -8,18 +8,16 @@ function Success({ closeSuccess }) {
 
   const handleContinue = () => {
     // Navigate to the login page
-    navigate("/login");
+    navigate("/shop");
     // Close the success component
     closeSuccess(false);
   };
-
 
   return (
     <div className={style.pageContainer}>
       <div className={style.container}>
         <div className={style.row}>
           <div className={style.column}>
-
             <div>
               <img src={Check} alt="check" />
             </div>
