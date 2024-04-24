@@ -4,12 +4,12 @@ import React from "react";
 
 function Sidebar() {
   return (
-    <aside className="sidebar">
+    <aside className= {style.sidebar}>
       <h2>
-        <p className="Afro">AfroCouture</p>
-        <p className="hub">-Hub</p>
+        <p className= {style.Afro}>AfroCouture</p>
+        <p className= {style.hub}>-Hub</p>
       </h2>
-        <ul className="overview">
+        <ul className= {style.overview}>
           <li>
             <a href="#">Overview</a>
           </li>
@@ -27,14 +27,14 @@ function Sidebar() {
           </li>
         </ul>
 
-        <ul className="buyer">
+        <ul className= {style.buyer}>
           <li>
             <a href="#">Buyer's View</a>
           </li>
           <li>
             <a href="#">Settings</a>
           </li>
-          <p className="logout">Log Out</p>
+          <p className= {style.logout}>Log Out</p>
           {/* <li className="logout">
             <a href="#">Log Out</a>
           </li> */}

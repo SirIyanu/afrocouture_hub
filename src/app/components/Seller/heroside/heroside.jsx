@@ -4,9 +4,9 @@ import React from 'react';
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className= {style.hero}>
       <h2>Collections</h2>
-      <button className='Addproductbutton'><img src={plus} className='plus' alt="" />Add Product</button>
+      <button className= {style.Addproductbutton}><img src={plus} className= {style.plus}alt="" />Add Product</button>
     </section>
   );
 }

@@ -11,13 +11,13 @@ import React from 'react';
 function sellerpage() {
   return (
     <header>
-      <button className='search'><img src={magnifying} className='magnifying' alt="" />Search</button>
+      <button className= {style.search}><img src={magnifying} className= {style.magnifying} alt="" />Search</button>
       <nav>
-        <ul className='User'>
-          <li><a href="#"><img src={message} className='message' alt="" /></a></li>
-          <li><a href="#"><img src={bell} className='bell' alt="" /></a></li>
+        <ul className= {style.User}>
+          <li><a href="#"><img src={message} className= {style.message} alt="" /></a></li>
+          <li><a href="#"><img src={bell} className= {style.bell} alt="" /></a></li>
           <li><a href="#">Joy James</a></li>
-          <li><a href="#"><img src={user} className='user' alt="" /></a></li>
+          <li><a href="#"><img src={user} className= {style.user} alt="" /></a></li>
         </ul>
       </nav>
     </header>
