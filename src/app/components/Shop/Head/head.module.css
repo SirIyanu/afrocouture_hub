@@ -6,12 +6,13 @@
   width: 1440px;
   height: 82px;
   padding: 10px 73px 17px 73px;
+  margin: none;
   /* padding-right: 73px;
   padding-left: 73px; */
-  gap: 50px;
+  /* gap: 50px; */
   opacity: 0px;
   font-weight: 600;
-  size: 20px;
+  /* size: 20px; */
   line-height: 24.38px;
   justify-content: space-around;
   /* margin-left: 40px; */
@@ -61,21 +62,22 @@
   display: flex;
 }
 
-.user {
+/* .user {
   background: #ffffffcc;
   width: 15.88px;
   height: 19.87px;
   gap: 0px;
   opacity: 0px;
-}
-/* .user,
+} */
+
+.user,
   .favorite,
   .cart {
     width: 32px;
     height: 32px;
     gap: 8px;
     opacity: 0;
-  } */
+  }
 
 .bestseller a {
   color: #ff900d;
