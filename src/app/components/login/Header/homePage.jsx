@@ -35,7 +35,7 @@ function NavigationPage() {
     <div>
       <header className={style.heading}>
         <h2>
-          <span className={style.Afro}>AfroCouture </span>Hub
+          <span className={style.afro}>AfroCouture </span>Hub
         </h2>
       </header>
       <section className={style.body}>
