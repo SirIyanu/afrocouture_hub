@@ -3,7 +3,7 @@
 .headsection {
   background-color: #232347;
   display: flex;
-  width: 1440px;
+  width: 100vw;
   height: 82px;
   padding: 10px 73px 17px 73px;
   /* padding-right: 73px;
@@ -61,21 +61,22 @@
   display: flex;
 }
 
-.user {
+/* .user {
   background: #ffffffcc;
   width: 15.88px;
   height: 19.87px;
   gap: 0px;
   opacity: 0px;
+} */
+.user,
+.favorite,
+.cart {
+  width: 32px;
+  height: 32px;
+  gap: 8px;
+  opacity: 0;
+  color: white;
 }
-/* .user,
-  .favorite,
-  .cart {
-    width: 32px;
-    height: 32px;
-    gap: 8px;
-    opacity: 0;
-  } */
 
 .bestseller a {
   color: #ff900d;

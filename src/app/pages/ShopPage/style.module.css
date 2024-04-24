@@ -1,7 +1,7 @@
 .ShopPage {
   background-color: #f0ecec;
   max-width: auto;
-  width: 1400px;
+  width: 100vw;
   height: auto;
   top: 2881px;
   left: 2050px;
@@ -20,7 +20,7 @@
   margin-left: 70px;
 }
 
-.body{
+.body {
   width: 1000px;
 }
 

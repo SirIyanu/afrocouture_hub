@@ -34,6 +34,7 @@ main {
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
+  gap: 20px;
 }
 .password,
 .signup {

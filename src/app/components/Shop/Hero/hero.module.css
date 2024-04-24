@@ -1,32 +1,37 @@
 /* Hero.module.css */
-  .home {
-    display: flex;
-    justify-content: center;
-    color: white;
-    width: auto; /* Remove comma from width value */
-    margin-top: 0px;
-    padding: 8px 0px 8px 0px;
-    gap: 24px;
-    opacity: 0px;
-    background-color: #373770;
-    list-style-type: none;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .shop {
-    display: flex;
-    background: #4b4b9926;
-    height: 58px;
-    padding-left: 200px;
-    opacity: 0px;
-    margin-top: 0px;
-    align-items: center;
-    justify-content: baseline;
-    gap: 16px;
-  }
+.home {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: auto; /* Remove comma from width value */
+  margin-top: 0px;
+  padding: 8px 0px 8px 0px;
+  gap: 24px;
+  opacity: 0px;
+  background-color: #373770;
+  list-style-type: none;
+  flex-direction: row;
+  align-items: center;
+}
 
-  /* .chevron {
+.hero {
+  width: 100vw;
+}
+
+.shop {
+  display: flex;
+  background: #4b4b9926;
+  height: 58px;
+  width: 100vw;
+  padding-left: 200px;
+  opacity: 0px;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: baseline;
+  gap: 16px;
+}
+
+/* .chevron {
     display: flex;
     width: 8px;
     height: 11px;
@@ -37,6 +42,6 @@
     align-items: baseline;
   } */
 
-  .ptag {
-    color: #ff900d;
-  }
+.ptag {
+  color: #ff900d;
+}

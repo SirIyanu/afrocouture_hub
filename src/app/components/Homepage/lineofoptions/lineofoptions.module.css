@@ -1,0 +1,10 @@
+.lineofoptions {
+  display: flex;
+  margin-left: 35%;
+}
+
+.lineofoptions a {
+  margin-right: 4em;
+  font-size: 1.5em;
+  cursor: pointer;
+}

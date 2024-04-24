@@ -34,11 +34,6 @@ function NavigationPage() {
 
   return (
     <div>
-      <header className={style.heading}>
-        <h2>
-          <span className={style.Afro}>AfroCouture </span>Hub
-        </h2>
-      </header>
       <section className={style.body}>
         <div className={style.momo}>
           <div>
