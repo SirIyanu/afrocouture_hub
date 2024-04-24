@@ -13,11 +13,13 @@ function Success({ closeSuccess }) {
     closeSuccess(false);
   };
 
+
   return (
     <div className={style.pageContainer}>
       <div className={style.container}>
         <div className={style.row}>
           <div className={style.column}>
+
             <div>
               <img src={Check} alt="check" />
             </div>

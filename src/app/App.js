@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+
 import { LoginPage } from "./pages/Login";
 import { SignUpPage } from "./pages/SignUp";
 import { LandingPage } from "./pages/Landing";
@@ -52,9 +53,12 @@ const router = createBrowserRouter([
 ]);
 export function App() {
   return (
+
+
     <>
       <ToastContainer />
       <RouterProvider router={router} />
     </>
+
   );
 }
