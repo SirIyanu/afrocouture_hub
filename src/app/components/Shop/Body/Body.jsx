@@ -9,8 +9,15 @@ import maxi from "../../Assets/maxi.png";
 import ssjames from "../../Assets/ssjames.png";
 import page from "../../Assets/page.png";
 import style from "./body.module.css";
+import { useNavigate } from "react-router-dom";
 
 export const Body = () => {
+  const navigate = useNavigate();
+  const handleButtonClick = () => {
+    navigate("/user");
+    console.log("i am working");
+  };
+
   return (
     <div className={style.body}>
       <div className={style.bodytop}>
@@ -41,13 +48,15 @@ export const Body = () => {
       </div>
       <div className={style.salecontainer}>
         <div>
-            <img src={kim} className={style.sale} alt="" />        
+          <img src={kim} className={style.sale} alt="" />
           <div>
             <img src={star} className={style.star} alt="" />
           </div>
           <p>Two piece by Miss Jenny Fashion</p>
           <h4 className={style.eth}>ETH 0.00028/$15.00</h4>
-          <button className={style.buynow}>Buy Now</button>
+          <button onClick={handleButtonClick} className={style.buynow}>
+            Buy Now
+          </button>
         </div>
         <div>
           <img src={okunrin} className={style.sale} alt="" />
@@ -56,7 +65,9 @@ export const Body = () => {
           </div>
           <p>Two piece by Miss Jenny Fashion</p>
           <h4 className={style.eth}> ETH 0.00028/$15.00</h4>
-          <button className={style.buynow}>Buy Now</button>
+          <button onClick={handleButtonClick} className={style.buynow}>
+            Buy Now
+          </button>
         </div>
         <div>
           <img src={pantsuit} className={style.sale} alt="" />
@@ -65,7 +76,9 @@ export const Body = () => {
           </div>
           <p>Two piece by Miss Jenny Fashion</p>
           <h4 className={style.eth}>ETH 0.00028/$15.00</h4>
-          <button className={style.buynow}>Buy Now</button>
+          <button onClick={handleButtonClick} className={style.buynow}>
+            Buy Now
+          </button>
         </div>
         <div>
           <img src={maxi} className={style.sale} alt="" />
@@ -74,7 +87,9 @@ export const Body = () => {
           </div>
           <p>Two piece by Miss Jenny Fashion</p>
           <h4 className={style.eth}>ETH 0.00028/$15.00</h4>
-          <button className={style.buynow}>Buy Now</button>
+          <button onClick={handleButtonClick} className={style.buynow}>
+            Buy Now
+          </button>
         </div>
         <div>
           <img src={james} className={style.sale} alt="" />
@@ -83,7 +98,9 @@ export const Body = () => {
           </div>
           <p>Two piece by Miss Jenny Fashion</p>
           <h4 className={style.eth}>ETH 0.00028/$15.00</h4>
-          <button className={style.buynow}>Buy Now</button>
+          <button onClick={handleButtonClick} className={style.buynow}>
+            Buy Now
+          </button>
         </div>
         <div>
           <img src={ssjames} className={style.sale} alt="" />
@@ -92,7 +109,9 @@ export const Body = () => {
           </div>
           <p>Two piece by Miss Jenny Fashion</p>
           <h4 className={style.eth}>ETH 0.00028/$15.00</h4>
-          <button className={style.buynow}>Buy Now</button>
+          <button onClick={handleButtonClick} className={style.buynow}>
+            Buy Now
+          </button>
         </div>
       </div>
       <div className={style.page}>

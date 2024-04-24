@@ -1,0 +1,76 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  background-color: #f0ecec;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 1316px;
+  gap: 40px;
+  opacity: 0px;
+}
+.small-container-one {
+  display: flex;
+  background-color: white;
+  gap: 10px;
+  width: 1360px;
+  height: 722px;
+  top: 238px;
+  left: 40px;
+  padding: 48px 24px 48px 24px;
+  gap: 48px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.section-one {
+  display: flex;
+  gap: 10px;
+}
+.small-kim {
+  display: flex;
+  flex-direction: column;
+  width: 106px;
+  height: 445.12px;
+  gap: 32px;
+  opacity: 0px;
+}
+.Big-kim {
+  width: 461px;
+  height: 553px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.kim-container {
+  width: 106px;
+  height: 127.04px;
+}
+
+img {
+  object-fit: cover;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  color: black;
+  text-align: left;
+}
+
+.star-text {
+  display: flex;
+  gap: 2px;
+}
+.small-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+}

@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+
 import { LoginPage } from "./pages/Login";
 import { SignUpPage } from "./pages/SignUp";
 import { LandingPage } from "./pages/Landing";
@@ -10,6 +11,7 @@ import { UserPage } from "./pages/UserPage";
 import React from "react";
 import { VerificationPage } from "./pages/Verification";
 import { ShopPage } from "./pages/ShopPage";
+import { Body } from "./components/Shop/Body/Body";
 // import App1 from "./pages/Landing/index";
 
 const router = createBrowserRouter([
@@ -30,7 +32,7 @@ const router = createBrowserRouter([
     element: <SignUpPage />,
   },
   {
-    path: "/userPage",
+    path: "/user",
     element: <UserPage />,
   },
   {
@@ -48,6 +50,9 @@ const router = createBrowserRouter([
   {
     path: "*",
     element: <h1>404</h1>,
+  },
+  {
+    element: <Body />,
   },
 ]);
 export function App() {

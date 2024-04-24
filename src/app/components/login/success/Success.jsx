@@ -8,7 +8,7 @@ function Success({ closeSuccess }) {
 
   const handleContinue = () => {
     // Navigate to the login page
-    navigate("/login");
+    navigate("/shop");
     // Close the success component
     closeSuccess(false);
   };
