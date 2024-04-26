@@ -9,6 +9,11 @@
     "chai-as-promised": "^7.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
+
+    "react-scripts": "^5.0.1",
+=======
+>>>>>>> afcf2ae454f399c0a4559ff1122f8877612f982e
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.22.3",
     "react-scripts": "^5.0.1",
