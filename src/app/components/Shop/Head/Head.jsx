@@ -1,9 +1,9 @@
 // Head.jsx
 
 import React from "react";
-import logo from "../../Assets/logo.svg";
-import lens from "../../Assets/lens.png";
-import user from "../../Assets/user.png";
+import logo from "../../../Assets/logo.svg";
+import lens from "../../../Assets/lens.png";
+import user from "../../../Assets/user.png";
 import favorite from "../../../assets/photos/favorite.png";
 import cart from "../../../assets/photos/cart.png";
 import User from "../../../assets/photos/user.svg";

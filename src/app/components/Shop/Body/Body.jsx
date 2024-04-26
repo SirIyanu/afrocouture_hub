@@ -1,13 +1,13 @@
 import React from "react";
-import lens from "../../Assets/lens.png";
-import kim from "../../Assets/kim.png";
-import star from "../../Assets/star.png";
-import james from "../../Assets/james.png";
-import pantsuit from "../../Assets/pantsuit.png";
-import okunrin from "../../Assets/okunrin.png";
-import maxi from "../../Assets/maxi.png";
-import ssjames from "../../Assets/ssjames.png";
-import page from "../../Assets/page.png";
+import lens from "../../../Assets/lens.png";
+import kim from "../../../Assets/kim.png";
+import star from "../../../Assets/star.png";
+import james from "../../../Assets/james.png";
+import pantsuit from "../../../Assets/pantsuit.png";
+import okunrin from "../../../Assets/okunrin.png";
+import maxi from "../../../Assets/maxi.png";
+import ssjames from "../../../Assets/ssjames.png";
+import page from "../../../../Assets/page.png";
 import style from "./body.module.css";
 import { useNavigate } from "react-router-dom";
 
