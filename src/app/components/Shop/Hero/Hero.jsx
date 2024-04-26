@@ -1,5 +1,5 @@
 import React from "react";
-import chevron from "../../Assets/chevron.png";
+import chevron from "../../../assets/photos/chevron.png";
 import style from "./hero.module.css";
 
 export const Hero = () => {
