@@ -1,0 +1,49 @@
+.sidebar {
+    padding-left: 10px;
+    padding-right: 5px;
+    flex-direction: column;
+    font-size: medium;
+    width: 150px; 
+    background-color:blue;
+  } 
+
+  .sidebar h2 {
+  display: flex;
+  align-items: center;
+  font-size: large;
+}
+
+.sidebar h2 p {
+  margin: 0;
+}
+.hub{
+  color: white;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.overview{
+    margin-bottom: 20px;
+    list-style-type: none;
+    color: black;
+    padding-bottom: 80px;
+    justify-content: space-around;
+  }
+  .overview a{
+    text-decoration: none
+  }
+
+  .buyer a{
+    text-decoration: none
+  }
+  .sidebar a{
+    color: white;
+    text-decoration: none
+  }
+  
