@@ -1,0 +1,28 @@
+seller{
+    background-color: grey;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.User{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.User li {
+  margin-right: 10px;
+}
+
+.User a{
+  text-decoration: none;
+  color: black;
+}

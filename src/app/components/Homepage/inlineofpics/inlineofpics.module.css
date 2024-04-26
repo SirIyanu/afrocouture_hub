@@ -1,0 +1,37 @@
+.picsline {
+  display: flex;
+  margin: 0 5%;
+  background-color: white;
+}
+.picsline div img {
+  width: 420px;
+  height: 466px;
+  margin: 0 40px 0 0;
+  box-sizing: border-box;
+}
+.picsline div b {
+  height: 2em;
+  width: fit-content;
+  background-color: #ff900d;
+  color: white;
+  padding: 12px 16px;
+}
+.picsline div p {
+  margin-top: 0;
+}
+.uppersection {
+  display: flex;
+  margin: 3em 0;
+}
+.uppersection label {
+  margin: 0 80% 0 5%;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.uppersection a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.uppersection a:hover {
+  cursor: pointer;
+}

@@ -7,89 +7,86 @@ import style from "./style.module.css";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { ReactComponent as GoogleIcon } from "../../assets/icons/google.svg";
-import Footer from "../../components/Footer";
+import { Footer } from "../../components/Footer";
+import { toast } from "react-toastify";
 
 export const SignUpPage = () => {
   // States for registration
-  const [name, setName] = useState("");
+  const [id, setId] = useState("");
   const [email, setEmail] = useState("");
   const [country, setCountry] = useState("");
 
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  // States for checking the errors
-  const [submitted, setSubmitted] = useState(false);
-  const [error, setError] = useState(false);
   const navigate = useNavigate();
 
-  // Handling the name change
-  const handleName = (event) => {
-    setName(event.target.value);
-    setSubmitted(false);
+  const handleId = (event) => {
+    setId(event.target.value);
   };
 
-  // Handling the email change
   const handleEmail = (event) => {
     setEmail(event.target.value);
-    setSubmitted(false);
   };
 
   const handleCountry = (event) => {
     setCountry(event.target.value);
-    setSubmitted(false);
   };
 
-  // Handling the password change
   const handlePassword = (event) => {
     setPassword(event.target.value);
-    setSubmitted(false);
   };
 
   const handleConfirmPassword = (event) => {
     setConfirmPassword(event.target.value);
-    setSubmitted(false);
   };
 
-  // Handling the form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    setSubmitted(true);
-    console.log("Submit button clicked");
-    console.log("Redirecting to login page...");
-    // Navigate to the login page after successful submission
-    // window.location.href = "login";
-    // redirect("/login");
-    navigate("/login");
-  };
+    if (password !== confirmPassword) {
+      return toast.error("Passwords do not match.");
+    }
 
-  // Showing success message
-  const successMessage = () => {
-    return (
-      <div className={style.success}>
-        {submitted && <h1>User {name} successfully registered!!</h1>}
-      </div>
-    );
-  };
+    // Prepare the payload
+    const payload = { id, email, country, password, confirmPassword };
 
-  // Showing error message if error is true
-  const errorMessage = () => {
-    return (
-      <div className={style.error}>
-        {error && <h1>Please enter all the fields</h1>}
-      </div>
-    );
+    // Perform the fetch request
+    fetch(`http://localhost:8000/users/${id}`) // Fetch the static JSON file
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("User not found");
+        }
+        return response.json();
+      })
+      .then((users) => {
+        if (users.email !== email) {
+          throw new Error("Invalid email");
+        }
+        // If email does not exist, proceed with the registration
+        return fetch("http://localhost:8000/users", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+      })
+      .then((res) => {
+        if (res.ok) {
+          toast.success("Sign-Up Successful");
+          setTimeout(() => {
+            navigate("/verification");
+          }, 6000);
+        } else {
+          throw new Error("Sign-Up Failed.");
+        }
+      })
+      .catch((err) => {
+        toast.error("Sign-Up Failed: " + err.message);
+      });
   };
 
   return (
     <div className={style.form}>
       <HeaderNavigation />
-
-      {/* Calling to the methods */}
-      <div className="messages">
-        {errorMessage()}
-        {successMessage()}
-      </div>
 
       <form onSubmit={handleSubmit}>
         <div className={style.wrapper}>
@@ -101,10 +98,11 @@ export const SignUpPage = () => {
 
           <CustomInput
             label={"Full Name"}
-            onChange={handleName}
+            onChange={handleId}
             className={style.input}
-            value={name}
+            value={id}
             type="text"
+            required
           />
 
           <CustomInput
@@ -113,6 +111,7 @@ export const SignUpPage = () => {
             className={style.input}
             value={email}
             type="email"
+            required
           />
           <CustomInput
             label={"Country of Residence"}
@@ -120,6 +119,7 @@ export const SignUpPage = () => {
             className={style.input}
             value={country}
             type="text"
+            required
           />
 
           <CustomInput
@@ -128,6 +128,7 @@ export const SignUpPage = () => {
             className={style.input}
             value={password}
             type="password"
+            required
           />
 
           <CustomInput
@@ -136,6 +137,7 @@ export const SignUpPage = () => {
             className={style.input}
             value={confirmPassword}
             type="password"
+            required
           />
         </div>
         <br />

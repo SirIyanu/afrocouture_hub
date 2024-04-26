@@ -3,7 +3,7 @@ import style from "./style.module.css";
 import { Logo } from "../Logo";
 import { Link } from "react-router-dom";
 import { companyMenu, quickLinkMenu, ourInformationMenu } from "./data";
-export default function Footer() {
+export function Footer() {
   return (
     <div className={style.footer}>
       <div className={style.menu}>

@@ -1,0 +1,476 @@
+/* .App {
+  background-color: #f0ecec;
+  max-width: auto;
+  width: 1440px;
+  height: 2171px;
+  top: 2881px;
+  left: 2050px;
+  gap: 0px;
+  opacity: 0px;
+} */
+
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .headsection {
+    background-color: #232347;
+    display: flex;
+    width: Fixed 1, 440px;
+    height: 82px;
+    padding-right: 73px;
+    padding-left: 73px;
+    gap: 50px;
+    opacity: 0px;
+    font-weight: 600;
+    size: 20px;
+    line-height: 24.38px;
+    justify-content: space-around;
+  }
+  
+  .navlist {
+    display: flex;
+    width: (340px) px;
+    height: Hug (32px) px;
+    gap: 32px;
+    opacity: 0px;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  .searchbutton {
+    width: 638px;
+    height: 52px;
+    border-radius: 30px;
+    padding: 8px;
+    gap: 202px;
+    margin-top: 10px;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add pointer cursor for better UX */
+  }
+  .lens {
+    width: 24px; /* Adjust the width of the lens image */
+    height: 24px; /* Adjust the height of the lens image */
+    margin-right: 8px; /* Add some margin to separate the icon from the text */
+  }
+  
+  span {
+    width: 101px;
+    height: 31px;
+    padding: 8px 0px 0px 0px;
+    gap: 8px;
+    opacity: 0px;
+    display: flex;
+  }
+  
+  .home {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: auto; /* Remove comma from width value */
+    margin-top: 0px;
+    padding: 8px 0px 8px 0px;
+    gap: 24px;
+    opacity: 0px;
+    background-color: #373770;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center; /* Horizontally center the items */
+  }
+  
+  .shop {
+    display: flex;
+    background: #4b4b9926;
+    height: 58px;
+    padding-left: 200px;
+    opacity: 0px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: baseline;
+    gap: 16px;
+  }
+  .ptag {
+    color: #ff900d;
+  }
+  
+  .side {
+    width: 338px;
+    height: 446px;
+    height: auto;
+    padding: 24px 13px 24px 13px;
+    gap: 8px;
+    opacity: 0px;
+    background: #c9c9c9;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .category {
+    margin-bottom: 10px;
+  }
+  
+  .pbrands h3 {
+    margin-bottom: 10px;
+  }
+  .line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* .price li{
+    display: flex;
+    justify-content: space-between;
+  } */
+  .bodyside {
+    display: flex;
+    background-color: #f0ecec;
+  }
+  
+  /* .ufct{
+    width: Hug (340px)px;
+  height: Hug (32px)px;
+  gap: 32px;
+  opacity: 0px;
+  } */
+  
+  .user {
+    width: Fixed (32px) px;
+    height: Fixed (32px) px;
+    gap: 8px;
+    opacity: 0px;
+  }
+  
+  .favorite {
+    width: Fixed (32px) px;
+    height: Fixed (32px) px;
+    gap: 8px;
+    opacity: 0px;
+  }
+  
+  .bestseller a {
+    color: #ff900d;
+    width: 164px;
+    max-width: 100%;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .chevron {
+    display: flex;
+    width: 8px;
+    height: 11px;
+    gap: 8px;
+    opacity: 0px;
+    padding-left: 7px;
+    padding-right: 7px;
+    align-items: baseline;
+  }
+  
+  .bodytop {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+  }
+  .active {
+    display: flex;
+    justify-content: space-between;
+    width: 927px;
+    height: 20px;
+    padding: 12px 24px 12px 24px;
+    margin-left: 15px;
+    gap: 305px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #ffffffcc;
+  }
+  .anything {
+    display: flex;
+    display: flex;
+    align-items: center;
+    width: 424 px;
+    height: 44px;
+    padding: 12px 16px 12px 16px;
+    gap: 8px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+  
+  .anythingbtn {
+    width: 424px;
+    height: 44px;
+    padding: 12px 16px 12px 16px;
+    gap: 8px;
+    border-radius: 2px 0px 0px 0px;
+    border: none;
+    opacity: 0px;
+    background: #ffffff;
+    display: flex;
+    margin-right: 200px;
+    align-items: center; /* Align items vertically */
+    cursor: pointer;
+  }
+  .sort-container {
+    margin-left: auto; /* Push sort button to the right */
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .sort-container p {
+    margin-right: 10px; /* Add spacing between the text and button */
+    width: 53px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  
+  .popular {
+    display: flex;
+    width: 160px;
+    height: 44px;
+    padding: 12px 16px 14px 16px;
+    gap: 8px;
+    border-radius: 2px 0px 0px 0px;
+    border: none;
+    opacity: 0px;
+    background: #ffffffcc;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .popular p {
+    margin-right: 5px; /* Add spacing between text and image */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    width: 94px;
+    height: 17px;
+    top: 12px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  
+  .active ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 364px;
+    height: 17px;
+    gap: 16px;
+    opacity: 0px;
+  }
+  .active span {
+    display: flex;
+    width: 226px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    padding-right: 50px;
+  }
+  
+  .sale {
+    display: flex;
+    width: 927px;
+    height: 46px;
+    padding: 12px 24px 12px 24px;
+    gap: 20px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+  }
+  .minmax {
+    display: flex;
+    width: 312px;
+    height: 40px;
+    gap: 12px;
+    opacity: 0px;
+  }
+  .sale1 {
+    background: #ffffffcc;
+  }
+  
+  .sale1 kim {
+    width: 300px;
+    height: 333px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  
+  .sale2 {
+    display: flex;
+  }
+  .price {
+    margin-top: 10px;
+  }
+  .price h3 {
+    margin-bottom: 10px;
+  }
+  .price img {
+    margin-bottom: 10px;
+  }
+  
+  .minmax {
+    width: 312px;
+    height: 40px;
+    gap: 12px;
+    opacity: 0px;
+    margin-bottom: 10px;
+  }
+  .minmax button {
+    width: 150px;
+    height: 40px;
+    padding: 8px 72px 15px 12px;
+    gap: 8px;
+    border-radius: 3px 0px 0px 0px;
+    border: none;
+    opacity: 0px;
+  }
+  .size {
+    margin-bottom: 10px;
+  }
+  .categoryside ul li {
+    margin-bottom: 5px;
+  }
+  .price ul li {
+    margin-bottom: 5px;
+  }
+  .pbrands ul li {
+    margin-bottom: 5px; /* Adjust the value as needed */
+  }
+  .mainsize ul li {
+    margin-bottom: 5px;
+  }
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: "";
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  

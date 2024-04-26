@@ -1,0 +1,44 @@
+.firstpicclothes {
+  display: flex;
+  background-color: white;
+}
+
+#firstpicclothesone,
+#firstpicclothestwo,
+#firstpicclothesthree {
+  width: 30%;
+  height: 45em;
+}
+
+#firstpicclothesone p,
+#firstpicclothesone h6 {
+  color: blue;
+  font-size: 2em;
+  margin-left: 20%;
+}
+#firstpicclothesone h6 {
+  color: blue;
+  font-size: 1.3em;
+  margin-left: 20%;
+}
+#firstpicclotheone button {
+  margin-left: 20%;
+  padding: 1em;
+}
+
+#firstpicclothesone p span {
+  color: orange;
+}
+#firstpicclothesone button {
+  background-color: orange;
+  color: white;
+}
+
+#firstpicclothestwo {
+  background-color: #d9d9d9;
+}
+#firstpicclothestwo img,
+#firstpicclothesthree img {
+  height: 45em;
+  width: 100%;
+}

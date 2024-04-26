@@ -1,25 +1,25 @@
-import Head from "../../components/Shop/Head";
-import Hero from "../../components/Shop/Hero";
-import Side from "../../components/Shop/Side";
-import Body from "../../components/Shop/Body";
-import "../../components/Shop/Shop.css";
+import React from "react";
+import Heading from "../../components/Homepage/heading/heading";
+//import Ret from '../../components/Homepage'
+import SecondSection from "../../components/Homepage/secondsection/secondsection";
+import FirstPicAndClothes from "../../components/Homepage/firstpicandclothes/firstpicandclothes";
+import SecondLineOfPics from "../../components/Homepage/secondlineofpics/secondlineofpics";
+import ListOfPics from "../../components/Homepage/listofpics/listofpics";
+import Photogrid from "../../components/Homepage/photogrid/photogrid";
+import OrangeBeforeLast from "../../components/Homepage/orangebeforelast/orangebeforelast";
+import { Footer } from "../../components/Footer";
+
 export const LandingPage = () => {
   return (
     <div>
-      <div>
-        <div>
-          <Head />
-          <Hero />
-          <div className="bodyside">
-            <div>
-              <Side />
-            </div>
-            <div>
-              <Body />
-            </div>
-          </div>
-        </div>
-      </div>
+      <Heading />
+      <SecondSection />
+      <FirstPicAndClothes />
+      <SecondLineOfPics />
+      <ListOfPics />
+      <Photogrid />
+      <OrangeBeforeLast />
+      <Footer />
     </div>
   );
 };
