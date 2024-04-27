@@ -12,31 +12,18 @@ import Picf from "../../../assets/afro pictures/hero section 1.jpg";
 import pic5 from "../../../assets/afro pictures/hero section 1.jpg";
 import pic6 from "../../../assets/afro pictures/Hero section 2.jpg";
 import pic7 from "../../../assets/afro pictures/TOP PICKS FOR YOU 4.jpg";
-import pic8 from "../../../assets/afro pictures/miss jenny fashion 2.jpg";
+import pic8 from "../../../assets/afro pictures/overlay and images (1).jpg";
+
 
 export default function Photogrid() {
   return (
     <>
       <div className={style.photo_grid}>
-        <div id="photoarea">
-          <div>
-            <img src={Pic_1}></img>
-            <img src={Picc}></img>
-            <img src={Picd}></img>
-            <img src={Pice}></img>
-            <img src={Picb}></img>
-            <img src={Pic3}></img>
-            <img src={Picf}></img>
-          </div>
-          <div>
-            <img src={Pic2}></img>
-            <img src={Pic3}></img>
-            <img src={Pic4}></img>
-            <img src={pic5}></img>
-            <img src={pic6}></img>
-            <img src={pic7}></img>
+        <div id={style.photoarea}>
+         
             <img src={pic8}></img>
-          </div>
+          
+          
         </div>
         <div id={style.rightgrid}>
           <label>Limited Offer</label>

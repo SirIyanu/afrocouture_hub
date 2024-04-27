@@ -3,13 +3,19 @@
   margin: 0 5%;
   background-color: white;
 }
+.picsline div{
+  width: 300px;
+  height: 442px;
+  margin-right: 4em;
+  margin-bottom: 4em;
+}
 .picsline div img {
-  width: 420px;
-  height: 466px;
+  width: 300px;
+  height: 410px;
   margin: 0 40px 0 0;
   box-sizing: border-box;
 }
-.picsline div b {
+.picsline div a {
   height: 2em;
   width: fit-content;
   background-color: #ff900d;
@@ -17,14 +23,15 @@
   padding: 12px 16px;
 }
 .picsline div p {
-  margin-top: 0;
+  margin: 0.3em 0 1em 0;
+  font-weight: bold;
 }
 .uppersection {
   display: flex;
-  margin: 3em 0;
+  margin: 2em 0;
 }
 .uppersection label {
-  margin: 0 80% 0 5%;
+  margin: 0 75% 0 5%;
   font-weight: bold;
   font-size: 1.2em;
 }

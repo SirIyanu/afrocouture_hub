@@ -13,11 +13,12 @@
   display: flex;
   /* background-color: #f0ecec; */
   width: 1200px;
-  left: 100px;
+  /* left: 100px; */
   top: 238px;
-  gap: 24px;
+  margin: none;
+  /* gap: 24px; */
   /* max-width: 100%; */
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 
 .body {

@@ -10,8 +10,8 @@
   display: flex;
 }
 #photoarea img {
-  height: 180px;
-  width: 150px;
+  height: 328px;
+  width: 763px;
   border: #232347 solid 0.1px;
 }
 #rightgrid {
@@ -20,7 +20,8 @@
 }
 #rightgrid h3 {
   font-size: 3em;
-  margin: 0 0 1em 0;
+  font-weight: bold;
+  margin: 0.2em 0 1em 0;
 }
 #rightgrid a {
   height: 2em;
@@ -32,3 +33,5 @@
 #rightgrid a:hover {
   cursor: pointer;
 }
+
+
