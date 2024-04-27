@@ -11,7 +11,11 @@ import React from "react";
 import { VerificationPage } from "./pages/Verification";
 import { ShopPage } from "./pages/ShopPage";
 import { Body } from "./components/Shop/Body/Body";
-// import App1 from "./pages/Landing/index";
+import { Seller } from "./pages/Seller";
+import { Cart } from "./pages/Cart";
+import { Checkout } from "./pages/Checkout";
+import { Product } from "./pages/Product";
+
 
 const router = createBrowserRouter([
   {
@@ -42,10 +46,10 @@ const router = createBrowserRouter([
     path: "/shop",
     element: <ShopPage />,
   },
-  // {
-  //   path:"/product",
-  //   element:<Product />,
-  // },
+  {
+    path:"/product",
+    element:<Product />,
+  },
   {
     path: "*",
     element: <h1>404</h1>,
@@ -53,6 +57,18 @@ const router = createBrowserRouter([
   {
     element: <Body />,
   },
+  {
+    path: "/seller",
+    element: <Seller/>
+  },
+  {
+    path: "/cart",
+    element: <Cart/>
+  },
+  {
+    path: "/checkout",
+    element: <Checkout/>
+  }
 ]);
 export function App() {
   return (
