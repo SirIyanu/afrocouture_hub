@@ -14,6 +14,7 @@ import { ShopPage } from "./pages/ShopPage";
 import { Body } from "./components/Shop/Body/Body";
 import { Seller } from "./pages/Seller";
 import { Cart } from "./pages/Cart";
+import { Checkout } from "./pages/Checkout";
 // import App1 from "./pages/Landing/index";
 
 const router = createBrowserRouter([
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: <Cart/>
+  },
+  {
+    path: "/checkout",
+    element: <Checkout/>
   }
 ]);
 export function App() {
