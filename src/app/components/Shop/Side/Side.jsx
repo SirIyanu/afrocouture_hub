@@ -140,13 +140,49 @@ export const Side = () => {
         <div className={style.pbrands}>
           <h3>POPULAR BRANDS</h3>
           <ul>
-            <li>Miss Jenny Fashion</li>
-            <li>Afrocentric store</li>
-            <li>Sima Fashion</li>
-            <li>Okunrin Haven</li>
-            <li>James K.</li>
-            <li>Luxury Girl</li>
-            <li>Stephen and Stephen</li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> Miss Jenny
+                Fashion
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> MAfrocentric
+                store
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> Sima Fashion
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> Okunrin Haven
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> James K.
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> Luxury Girl
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> Luxury Girl
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> Stephen and
+                Stephen
+              </label>
+            </li>
             <li>
               <img src={line} className={style.line} alt="" />
             </li>
@@ -155,12 +191,36 @@ export const Side = () => {
         <div className={style.mainsize}>
           <h3 className={style.size}>SIZE</h3>
           <ul>
-            <li>S</li>
-            <li>M</li>
-            <li>L</li>
-            <li>XL</li>
-            <li>XXL</li>
-            <li>XXXL</li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> S
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> M
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> L
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> XL
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> XXL
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="category" value="" /> XXXL
+              </label>
+            </li>
           </ul>
         </div>
       </div>
