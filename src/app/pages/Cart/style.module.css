@@ -1,0 +1,113 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+  }
+  h2{
+    color: black;
+  }
+
+  form {
+    gap: 20px;
+     width: 680px;
+     padding: 30px;
+    /* height: 50%; */
+    background-color: white;
+    /* flex-wrap: wrap; */
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  
+  .body {
+    background-color: #f0ecec;
+    display: flex;
+    width: 100vw; 
+  }
+  .wrapper {
+  }
+  .container-one,
+  .container-two
+  {
+display: flex;
+flex-direction: column;
+
+  }
+.container-one {
+height: 1768px;
+padding: 0 40px 0px 40px;
+}
+
+.small {
+    background-color: #E2E1EC;
+     /* margin-left: 50px;  */
+    margin-bottom: 0;
+    width: 680px;
+   
+  }
+.flexit {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input {
+  background-color: red;
+}
+
+p {
+  color: black;
+}
+
+
+.container-two{
+  padding: 136px 92px 1300px 85px;
+  background-color: white;
+  width: 500px;
+  height: 1508px;
+}
+.pack{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  width: max-content;
+}
+
+.flexy {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.work {
+  display: flex;
+}
+
+button {
+  width: 342px;
+  height:48px;
+  padding: 12px 0px 0px 0px;
+  gap: 8px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+  
+}
+.divider {
+  border: 1px solid black;
+}
+.wrapperry {
+
+/* padding: 0 80px 82px 0px; */
+width: 520px;
+background-color: #f0ecec;
+}
+.smaller {
+width:500px;
+height: 66px;
+background-color: #E2E1EC;
+}
