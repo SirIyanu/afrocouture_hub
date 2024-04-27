@@ -191,6 +191,9 @@ export const Cart = ()=> {
         </CustomButton>
         </div>
             </div>
+            <div className={style.payment}>
+
+            </div>
             </div>
  
       <Footer/> 
