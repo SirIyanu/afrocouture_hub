@@ -2,19 +2,24 @@
     background-color: white;
     padding: 0 0 2em 0;
     margin-bottom: 2em;
+    width: 100%;
+    margin-top: 2em;
+    box-sizing: border-box;
+    height: fit-content;
 }
 .secondlineofpics p{
-    background-color:rgb(9, 9, 58) ;
+    background-color:#232347 ;
     color: white;
     width: fit-content;
     margin-bottom: 0;
     font-size: 1.5em;
+    padding: 7px 15px;
 }
 .lineofphotos{
     display: flex;
 }
 .lineofphotos img{
-    width: 315.575px;
-    margin: 0 40px;
-    height: 252.72px;
+    width: 233.04px;
+    margin: 0 16px;
+    height: 291.3px;
 }

@@ -1,6 +1,6 @@
 import style from "./firstpicandclothes.module.css";
-import Pic1 from "../../../assets/afro pictures/hero section 1.jpg";
-import Pic2 from "../../../assets/afro pictures/Hero section 2.jpg";
+import Pic1 from "../../../assets/afro pictures/hero_section_1-removebg-preview.png";
+import Pic2 from "../../../assets/afro pictures/Hero_section_2-removebg-preview.png";
 export default function FirstPicAndClothes() {
   return (
     <div className={style.firstpicclothes}>
@@ -11,7 +11,7 @@ export default function FirstPicAndClothes() {
           <span>Two-piece collection</span>
         </p>
         <h6>
-          Explore unique styles from the best of the <br /> best African brands
+          Explore unique styles from the best of the <br/>best African brands
         </h6>
         <button>Shop now</button>
       </div>

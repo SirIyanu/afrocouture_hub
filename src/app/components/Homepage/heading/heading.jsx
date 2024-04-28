@@ -1,6 +1,7 @@
 import style from "./heading.module.css";
 import search from "../../../assets/afro pictures/search.jpg";
 import profile from "../../../assets/afro pictures/profile.jpg";
+import cart from "../../../assets/afro pictures/cart.png"
 import { Link } from "react-router-dom";
 
 export default function Heading() {
@@ -8,7 +9,7 @@ export default function Heading() {
     <div className={style.head}>
       <div id={style.logo}>
         <h1>
-          Afrocouture-<span>HUb</span>
+          AfroCouture-<span>HUb</span>
         </h1>
       </div>
 
@@ -19,8 +20,7 @@ export default function Heading() {
 
       <div id={style.lastsectionheading}>
         <img src={profile}></img>
-        <img src={profile}></img>
-        <img src={profile}></img>
+        <img src={cart}></img>
         <Link to="/signUp"> Become a seller</Link>
       </div>
     </div>

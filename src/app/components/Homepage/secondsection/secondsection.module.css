@@ -1,13 +1,16 @@
 .secondsection{
     display: flex;
-    padding: 1em 30%;
+    padding: 1em 25% 1em 31%;
     box-sizing: border-box;
     color: white;
-    background-color: rgb(50, 13, 129);
+    background-color: #373770;
     height: 3em;
     
 }
 
 .secondsection a{
-    margin-left: 5em;
+    margin-left: 3em;
+}
+.secondsection a:hover{
+    cursor: pointer;
 }
