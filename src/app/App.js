@@ -14,8 +14,7 @@ import { Body } from "./components/Shop/Body/Body";
 import { Seller } from "./pages/Seller";
 import { Cart } from "./pages/Cart";
 import { Checkout } from "./pages/Checkout";
-import { Product } from "./pages/Product";
-
+import { ProductPage } from "./pages/Product";
 
 const router = createBrowserRouter([
   {
@@ -47,9 +46,8 @@ const router = createBrowserRouter([
     element: <ShopPage />,
   },
   {
-
-    path:"/product",
-    element:<Product />,
+    path: "/product",
+    element: <ProductPage />,
   },
   {
     path: "*",
@@ -60,16 +58,16 @@ const router = createBrowserRouter([
   },
   {
     path: "/seller",
-    element: <Seller/>
+    element: <Seller />,
   },
   {
     path: "/cart",
-    element: <Cart/>
+    element: <Cart />,
   },
   {
     path: "/checkout",
-    element: <Checkout/>
-  }
+    element: <Checkout />,
+  },
 ]);
 export function App() {
   return (
