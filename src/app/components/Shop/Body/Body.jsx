@@ -14,7 +14,7 @@ import { useNavigate } from "react-router-dom";
 export const Body = () => {
   const navigate = useNavigate();
   const handleButtonClick = () => {
-    navigate("/user");
+    navigate("/product");
     console.log("i am working");
   };
 
