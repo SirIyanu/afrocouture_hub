@@ -18,7 +18,10 @@ export default function Heading() {
       </div>
 
       <div id={style.lastsectionheading}>
+        <Link to="/shop">
         <img src={profile}></img>
+        </Link>
+        
         <img src={profile}></img>
         <img src={profile}></img>
         <Link to="/signUp"> Become a seller</Link>

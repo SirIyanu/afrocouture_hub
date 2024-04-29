@@ -17,20 +17,20 @@ export const Head = () => {
         <img src={lens} className={style.lens} alt="" />
         <span>Type to search</span>
       </button>
-      <ul className={style.navlist}>
-        <li>
+      <div className={style.navlist}>
+        <div>
           <img src={User} className={style.user} alt="" />
-        </li>
-        <li>
+        </div>
+        <div>
           <img src={favorite} className={style.favorite} alt="" />
-        </li>
-        <li>
+        </div>
+        <div>
           <img src={cart} className={style.cart} alt="" />
-        </li>
-        <li className={style.bestseller}>
+        </div>
+        <div className={style.bestseller}>
           <a href="bestseller">Become a best seller</a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </header>
   );
 };
