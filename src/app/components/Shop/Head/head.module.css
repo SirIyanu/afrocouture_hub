@@ -75,8 +75,8 @@
   width: 32px;
   height: 32px;
   gap: 8px;
-  opacity: 0;
-  color: white;
+  /* opacity: 0; */
+  /* color: white; */
 }
 
 .bestseller a {
